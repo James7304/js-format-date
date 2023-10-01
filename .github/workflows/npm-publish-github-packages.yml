@@ -30,9 +30,8 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
+          scope: '@james7304'
       - run: npm ci
-      - run : npm install -g npm-cli-login
-      - run : npm-cli-login -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }} -e ${{ github.actor }}@users.noreply.github.com -r https://npm.pkg.github.com/
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
