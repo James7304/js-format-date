@@ -30,6 +30,6 @@
   },
   "type": "module",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@james7304"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
