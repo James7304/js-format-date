@@ -4,7 +4,8 @@
   "description": "A javascript date formatter for changing a Date object into a given string format",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/James7304/js-format-date/issues"
   },
-  "homepage": "https://github.com/James7304/js-format-date#readme"
+  "homepage": "https://github.com/James7304/js-format-date#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0"
+  },
+  "type": "module"
 }
