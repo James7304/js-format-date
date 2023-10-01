@@ -1,0 +1,26 @@
+{
+  "name": "js-format-date",
+  "version": "1.0.0",
+  "description": "A javascript date formatter for changing a Date object into a given string format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/James7304/js-format-date.git"
+  },
+  "keywords": [
+    "date",
+    "format",
+    "js",
+    "date-format",
+    "js-format-date"
+  ],
+  "author": "James McCorkindale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/James7304/js-format-date/issues"
+  },
+  "homepage": "https://github.com/James7304/js-format-date#readme"
+}
