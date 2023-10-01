@@ -31,5 +31,5 @@
   "type": "module",
   "publishConfig": {
     "@james7304:registry": "https://npm.pkg.github.com"
-  }  
+  }
 }
